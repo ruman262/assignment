@@ -1,0 +1,11 @@
+#programme to take a person's age and categories it as child,teen,adult or senior
+
+a=int(input("enter number: "))
+if a < 13:
+  print ("child")
+if a == 13-19:
+  print ("teen")
+if a == 20-59:
+  print ("adult")
+if a >= 60:
+  print ("senior")
